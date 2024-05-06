@@ -1,0 +1,49 @@
+.sidNav{
+    display: flex;
+    /* width: 15%; */
+    height: 95vh;
+    flex: 1;
+    background-color: #d0e0e0;
+    color: #454545;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: large;
+    margin: 10px 0 0 10px;
+}
+.logo img{
+    width: auto;
+    height: 10px;
+}
+.upper-menu{
+    margin-top: 30px;
+}
+.option1{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    align-items: center;
+    padding-right:80px ;
+}
+#otp1{
+    background-color:#E99B66 ;  
+    width: 100%;
+    opacity: 100%;
+    /* padding: 10px; */
+}
+.two-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bottom-opt{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 5px;
+    font-size: small;
+    margin-left: 5px;
+}
